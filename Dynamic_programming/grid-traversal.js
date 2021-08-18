@@ -16,8 +16,9 @@ function gridTraversal(m, n, memo = {}) {
     return memo[key]
 }
 
+
 console.log(gridTraversal(1, 1));
 console.log(gridTraversal(2, 3));
 console.log(gridTraversal(3, 2));
 console.log(gridTraversal(3, 3));
-console.log(gridTraversal(18, 18));
+console.log(gridTraversal(50, 18));

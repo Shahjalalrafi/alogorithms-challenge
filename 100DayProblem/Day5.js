@@ -19,3 +19,17 @@ function TotalOfPrime(num) {
 
 console.log(TotalOfPrime(10))
 console.log(TotalOfPrime(100))
+
+
+// function positiveNumber (numbers) {
+//     let positivenum = 0
+//     for(let i = 0; i<= numbers.length; i++) {
+      
+//         if(numbers[i] > 0) {
+//             positivenum += 1 
+//         }
+//     }
+//     return positivenum
+// }
+
+// console.log(positiveNumber([2, 3, 5, 1, -12, -12]))
