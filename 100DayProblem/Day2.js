@@ -5,8 +5,15 @@
 
 function sumOfAllNumber(...args) {
     let total = 0
-    args.forEach(number => total += number )
+
+    // with built in method
+    // args.forEach(Element => total += Element)
+    // return total
+
+    for(let i = 0; i< args.length; i++) {
+        total += args[i]
+    }
     return total
 }
 
-console.log(sumOfAllNumber(1, 3, 5))
+console.log(sumOfAllNumber(1, 3, 5, 8,3))

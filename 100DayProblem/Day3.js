@@ -11,13 +11,15 @@
 function addBorder(picture) {
     const border = ("*").repeat(picture[0].length + 2)
     let pictureArray = []
+
     for(let i = 0; i< picture.length; i++) {
-        pictureArray.push("*".concat(picture[i] + "*")) 
+        let borderImg = "*".concat(picture[i] + "*")
+        pictureArray.push(borderImg)
     }
-    
+
     pictureArray.push(border)
     pictureArray.unshift(border)
-    return pictureArray  
+    return pictureArray
 }
 
 console.log(addBorder(['abc', 'ded']))

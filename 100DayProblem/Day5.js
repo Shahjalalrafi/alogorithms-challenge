@@ -33,3 +33,20 @@ console.log(TotalOfPrime(100))
 // }
 
 // console.log(positiveNumber([2, 3, 5, 1, -12, -12]))
+
+
+// function positivenumAndNegativeNumber(numbers) {
+//     let positiveNumber = 0
+//     let negativeNumber = 0
+//     for(let i = 0; i< numbers.length; i++) {
+//         if(numbers[i] > 0) {
+//             positiveNumber +=1
+//         }
+//         else {
+//             negativeNumber += 1
+//         }
+//     }
+//     console.log(positiveNumber, negativeNumber)
+// }
+
+// positivenumAndNegativeNumber([3, 5, 6, -3, -4, 92, -3])

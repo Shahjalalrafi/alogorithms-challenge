@@ -1,15 +1,28 @@
 // memorizing fibonacchi
 
-const fib = (n, memo = {}) => {
-    if(n in memo) return memo[n]
+// const fib = (n, memo = {}) => {
+//     if(n in memo) return memo[n]
+//     if(n <= 2) {
+//         return 1
+//     }
+//     memo[n] = fib(n-1, memo) + fib(n-2, memo)
+//     return memo[n]
+// }
+
+// console.log(fib(6))
+// console.log(fib(7))
+// console.log(fib(8))
+// console.log(fib(50))
+
+
+const fib = (n) => {
     if(n <= 2) {
         return 1
     }
-    memo[n] = fib(n-1, memo) + fib(n-2, memo)
-    return memo[n]
+
+    const fibo = fib(n - 1) + fib(n - 2)
+    console.log(fib(n -1))
+    return fibo
 }
 
-console.log(fib(6))
-console.log(fib(7))
-console.log(fib(8))
-console.log(fib(50))
+console.log(fib(10))
